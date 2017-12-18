@@ -1,10 +1,22 @@
 # 一个超卖的例子
 
+## 项目名称为什么叫loser？
+
+> 因为这种方式比较不好，我们应该找更好的办法...
+
+## 使用
+
 1. node app.js启动
 2. 执行压力测试 siege -c 100 -r 10 -q http://localhost:3000/buy
 3. 查看数据库插入了多少条
 
-# 压力测试方法
+## 压力测试工具安装
+
+1. brew update
+2. brew install siege
+
+## 压力测试方法
+
 siege -c 100 -r 10 -q http://localhost:3000/buy
 
 siege -c 200 -r 10 -q http://localhost:3000/buy

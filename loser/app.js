@@ -15,7 +15,7 @@ app.use(route.get('/buy', async(ctx) => {
 		ctx.status = 400;
 		return ctx.body = '很遗憾，卖没了...';
 	} else {
-		const model = await orderModel.create({
+		const model = await OrderModel.create({
 			name: Date.now()
 		});
 		if (model) {

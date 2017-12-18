@@ -6,9 +6,10 @@
 
 ## 使用
 
-1. node app.js启动
-2. 执行压力测试 siege -c 100 -r 10 -q http://localhost:3000/buy
-3. 查看数据库插入了多少条
+1. npm install
+2. node app.js启动
+3. 执行压力测试 siege -c 100 -r 10 -q http://localhost:3000/buy
+4. 查看数据库插入了多少条
 
 ## 压力测试工具安装
 
